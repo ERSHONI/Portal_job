@@ -56,30 +56,6 @@ HTML + Jinja2 Templates
 
 CSS (Templates ішінде кірістірілген)
 
-📁 Жоба құрылымы
-Project/
-│── app.py                # Flask қолданбасы
-│── database.py           # Деректер базасымен жұмыс
-│── Project_work.db       # SQLite база
-│
-└── templates/2/          # Барлық HTML шаблондары
-      ├── index.html
-      ├── login.html
-      ├── register-select.html
-      ├── employer-register.html
-      ├── worker-register.html
-      ├── employer-dashboard.html
-      ├── worker-dashboard.html
-      ├── admin-dashboard.html
-      ├── jobs.html
-      ├── job-details.html
-      ├── job_create.html
-      ├── apply.html
-      ├── change_job.html
-      ├── change_worker_profile.html
-      ├── change_employer_profile.html
-      └── тағы басқа HTML файлдар
-
 ▶️ Жобаны іске қосу
 1) Қажетті кітапханаларды орнату:
 pip install flask
